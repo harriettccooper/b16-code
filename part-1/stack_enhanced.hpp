@@ -13,6 +13,9 @@ template <typename T> class StackEnhanced : public Stack<T>
     void clear()
     {
         // WRITE YOUR CODE HERE
+        for (int i = Stack.size(), i = 0, --i){
+            Stack.pop()
+        }
     }
 };
 
